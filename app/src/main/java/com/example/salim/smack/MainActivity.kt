@@ -10,6 +10,7 @@ import android.view.Menu
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
 
@@ -36,6 +37,19 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
+    fun loginBtnNavClicked(view: View)
+    {}
+
+    fun addChannelClicked(view: View)
+    {
+
+    }
+
+    fun sendMsgBtnClicked(view: View)
+    {
+        
+    }
 
 
 
